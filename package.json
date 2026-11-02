@@ -1,0 +1,13 @@
+{
+  "name": "ad-performance-aggregator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Memory-efficient CLI that aggregates advertising performance from a large CSV",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node src/index.js --input ad_data.csv --output results",
+    "test": "node --test test/*.test.js"
+  }
+}
